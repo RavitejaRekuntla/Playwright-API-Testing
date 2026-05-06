@@ -2,7 +2,9 @@
   "name": "api-testing",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -11,4 +13,5 @@
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.6.0"
   }
+  
 }
