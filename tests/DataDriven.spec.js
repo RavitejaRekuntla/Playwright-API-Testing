@@ -10,5 +10,6 @@ test("Data driven test", async ({request}) => {
         data : testData
         });
         expect(response.status()).toBe(201);
+        console.log(".................................");
     }
 )
